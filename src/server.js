@@ -11,7 +11,7 @@ app.use(cors());
 
 const serverRoute = require("./routes/Route");
 
-const mongodb = "mongodb+srv://tivity:<password>@cluster0.elmfx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const mongodb = "mongodb+srv://tivity:pamelia2@cluster0.elmfx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 mongoose.connect(mongodb,{
   useNewUrlParser : true,
